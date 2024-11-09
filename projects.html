@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="slideshow-container">
+            <!-- Slides -->
+            <div class="slide fade">
+                <img src="squat1.jpg" alt="Project 1">
+                <div class="caption">Project 1</div>
+            </div>
+            <div class="slide fade">
+                <img src="bench1.jpg" alt="Project 2">
+                <div class="caption">Project 2</div>
+            </div>
+            <div class="slide fade">
+                <img src="deadlift1.jpg" alt="Project 3">
+                <div class="caption">Project 3</div>
+            </div>
+            <div class="slide fade">
+                <img src="ohp1.jpg" alt="Project 4">
+                <div class="caption">Project 4</div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+            <a class="next" onclick="moveSlide(1)">&#10095;</a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
